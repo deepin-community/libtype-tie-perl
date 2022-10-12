@@ -1,0 +1,52 @@
+libtype-tie-perl (0.015-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+  [ Debian Janitor ]
+  * build-depend on debhelper-compat (not debhelper)
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Jonas Smedegaard ]
+  * use debhelper compatibility level 13 (not 12)
+  * copyright info: update coverage
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 07 Feb 2021 02:33:04 +0100
+
+libtype-tie-perl (0.014-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release.
+
+  [ Jonas Smedegaard ]
+  * Update watch file: Rewrite usage comment.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 26 Feb 2019 17:19:03 +0100
+
+libtype-tie-perl (0.013-3) unstable; urgency=medium
+
+  * Wrap and sort control file.
+  * Revert to use debhelper compatibility 9,
+    to ease backporting.
+    Relax to build-depend unversioned on debhelper.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sat, 19 Jan 2019 19:02:52 +0100
+
+libtype-tie-perl (0.013-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add upstream/metadata
+  * Bump debheper compatibility level to 11
+  * Remove minimal version for libexporter-tiny-perl dependency
+  * Add libtest-fatal-perl and libtest-requires-perl in build dependencies.
+    Fixes debci
+  * Update links to https
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 19 Jan 2019 18:36:56 +0100
+
+libtype-tie-perl (0.013-1) unstable; urgency=low
+
+  * Initial packaging release.
+    Closes: bug#919655.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 18 Jan 2019 11:57:42 +0100

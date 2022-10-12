@@ -1,0 +1,42 @@
+Source: libtype-tie-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Jonas Smedegaard <dr@jones.dk>,
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ libexporter-tiny-perl,
+ libmoo-perl <!nocheck>,
+ libmoosex-types-perl <!nocheck>,
+ libtest-fatal-perl <!nocheck>,
+ libtest-requires-perl <!nocheck>,
+ libtype-tiny-perl <!nocheck>,
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtype-tie-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtype-tie-perl.git
+Homepage: https://metacpan.org/release/Type-Tie
+Rules-Requires-Root: no
+
+Package: libtype-tie-perl
+Architecture: all
+Depends:
+ libexporter-tiny-perl,
+ ${misc:Depends},
+ ${perl:Depends},
+Recommends:
+ libhash-fieldhash-perl,
+Enhances:
+ libmoosex-types-perl,
+ libmousex-types-perl,
+ libspecio-perl,
+ libtype-tiny-perl,
+Description: tie a variable to a type constraint
+ Type::Tie exports a single function: ttie.
+ ttie ties a variable to a type constraint,
+ ensuring that whatever values stored in the variable
+ will conform to the type constraint.
+ If the type constraint has coercions,
+ these will be used if necessary
+ to ensure values assigned to the variable conform.

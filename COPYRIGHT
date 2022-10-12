@@ -1,0 +1,69 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Type-Tie
+Upstream-Contact: Toby Inkster (TOBYINK) <tobyink@cpan.org>
+Source: https://metacpan.org/release/Type-Tie
+
+Files: README
+ lib/Type/Tie.pm
+ t/01basic.t
+ t/02moosextypes.t
+ t/04nots.t
+ t/05typetiny.t
+Copyright: This software is copyright (c) 2013-2014, 2018-2019 by Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: INSTALL
+ LICENSE
+ Makefile.PL
+ inc/Test/Fatal.pm
+ inc/Test/Requires.pm
+ inc/Try/Tiny.pm
+Copyright: Unknown
+License: Unknown
+
+Files: Changes
+ META.json
+ META.yml
+ doap.ttl
+Copyright: Copyright 2020 Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: COPYRIGHT
+ CREDITS
+ SIGNATURE
+Copyright: None
+License: public-domain
+
+Files: t/06tn-moo.t
+Copyright: This software is copyright (c) 2019 by Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: dist.ini
+Copyright: Copyright 2013 Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: t/03prototypicalweirdness.t
+Copyright: This software is copyright (c) 2014, 2018-2019 by Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: lib/Type/Nano.pm
+Copyright: This software is copyright (c) 2018-2019 by Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+Files: t/06storable.t
+Copyright: This software is copyright (c) 2013-2014 by Toby Inkster.
+License: GPL-1.0+ or Artistic-1.0
+
+License: Artistic-1.0
+ This software is Copyright (c) 2020 by the copyright holder(s).
+ 
+ This is free software, licensed under:
+ 
+   The Artistic License 1.0
+
+License: GPL-1.0
+ This software is Copyright (c) 2020 by the copyright holder(s).
+ 
+ This is free software, licensed under:
+ 
+   The GNU General Public License, Version 1, February 1989

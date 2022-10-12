@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.83.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA256 5470bbcf29f1eff5050abf8cf171ebb0a6ce04870773d92bb9c48a6519a313ab COPYRIGHT
+SHA256 7c64194c0da9dd75c60820fa9bdcb00c19d94511d264b619d6af12e699a3efc9 CREDITS
+SHA256 cf0a2a5dde2c485d3c878bf38773d249a035423f63443463b873b2cb0f8d511a Changes
+SHA256 33b23c7d40de2f15ba4f1b7c878ca910e08972c8e466ee665c69681f45ebf1ec INSTALL
+SHA256 1fb7395e76eabf94c421912d7d0a4f7fa745d49e1acb76b222c21d605b66bd25 LICENSE
+SHA256 85f39342ae4a847a19a37e7450cff9b5bc4f817e42500356f94155ddf68d11a7 MANIFEST
+SHA256 2145c75d737f7247f417474da2a9f184238dbeb442f9b020571bc38a7843b446 META.json
+SHA256 41a67c84fec453740ad460c4af43c6c6fbb31e1491dc2d6f5e4e081743264aab META.yml
+SHA256 ef2a7a63f17999818acff2e09aaef4c92837c0cde132096d4efeacaa09823002 Makefile.PL
+SHA256 44a45f6b4b472901e27bd6c823fed8dc35a9851bbe651222768cad9c7338512c README
+SHA256 ccf91b10c4c9168803b2c23cdccd17bf0883f4694b0ffd4972a6cf121433ba4b dist.ini
+SHA256 d3e245195601f4c08723b1954030c9c73f7bd7a6c340caef8ad96b3c1cb23981 doap.ttl
+SHA256 c361b86d13c8fdfbe75840d11dbe6af488e44af27b0edb80fd1eea28c8e935d4 inc/Test/Fatal.pm
+SHA256 028228adc90d6e48e775476c71b4cd0828de708d91c3356f5fe656e7925b6ce5 inc/Test/Requires.pm
+SHA256 083292e0cefc5cd41c82975f7b9aadc6893065d4297dc153b7f13356c0c0a44c inc/Try/Tiny.pm
+SHA256 e09ec6934bebf82b82ba1e62d0a944dcf7c8d6b209f1fdb93cab92c8369f8e8c lib/Type/Nano.pm
+SHA256 62e81b9d3b1843046af9b2be2f6ed87e2fd6c53e5eb85b890a6c3f3fa4a7afe3 lib/Type/Tie.pm
+SHA256 d66a9bbd9366c80c2965cd409dc8b1c40f0433107cbb47e5fa93a7dd8b5ea888 t/01basic.t
+SHA256 6b9c70a53cc8d89bb3d8b5ba012c27d74d6646fff4a0ed3ca01692055c785cb1 t/02moosextypes.t
+SHA256 b70d117e47a386f7fba467e5f8761f1310d220130eaf1eb1f81c0bfeb57fd966 t/03prototypicalweirdness.t
+SHA256 eef9681fa189a31e54df031876d16457926757d0d9f113210f4b09872283f2a9 t/04nots.t
+SHA256 73d80a31cf2683eca460095860d1262d47bd42889601d94951582f40fade95fe t/05typetiny.t
+SHA256 d9be082e351c9714522d98cbe96c923e232f2a5be500061c3669df204e4cd55e t/06storable.t
+SHA256 029c59e53421285a1d1e324ff4637a9cbd13d73c9741b2c1a45a31b869ded158 t/06tn-moo.t
+-----BEGIN PGP SIGNATURE-----
+
+iF0EARECAB0WIQRVJKj/4+s6z4WzNujOv4Eoaip9OQUCX7R1zwAKCRDOv4Eoaip9
+Oe52AJ9E6UM02SKOEWvrjEHR89lkeASifQCbBv6CURTRc/3RRWl2FZ2cvZr3AsY=
+=9ShM
+-----END PGP SIGNATURE-----
